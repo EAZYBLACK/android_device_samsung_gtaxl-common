@@ -61,3 +61,7 @@ genfscon sysfs /devices/12c30000.mfc0/video7/name                               
 
 # Lights
 genfscon sysfs /devices/virtual/sec/sec_touchkey/brightness                                       u:object_r:sysfs_light:s0
+
+# Device tree
+genfscon sysfs /firmware/devicetree/                                                              u:object_r:sysfs_dt_firmware:s0
+

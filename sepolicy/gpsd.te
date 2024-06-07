@@ -46,6 +46,5 @@ allow gpsd self:capability net_raw;
 allow gpsd self:capability2 block_suspend;
 
 get_prop(gpsd, vendor_radio_prop)
-get_prop(gpsd, telephony_config_prop)
 get_prop(gpsd, exported_config_prop)
 get_prop(gpsd, bootanim_system_prop);

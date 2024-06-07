@@ -11,9 +11,9 @@ mdc.                         u:object_r:exported_config_prop:s0
 persist.sys.omc_support      u:object_r:exported_config_prop:s0
 persist.sys.omc_etcpath      u:object_r:exported_config_prop:s0
 ro.omc.                      u:object_r:exported_config_prop:s0
-ril.NwNmId                   u:object_r:telephony_config_prop:s0
-ril.NwNmId2                  u:object_r:telephony_config_prop:s0
-ro.simbased.changetype       u:object_r:telephony_config_prop:s0
+ril.NwNmId                   u:object_r:exported_config_prop:s0
+ril.NwNmId2                  u:object_r:exported_config_prop:s0
+ro.simbased.changetype       u:object_r:exported_config_prop:s0
 
 # Bluetooth
 vendor.wc_transport.         u:object_r:vendor_bluetooth_prop:s0

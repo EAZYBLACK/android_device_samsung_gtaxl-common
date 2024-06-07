@@ -54,10 +54,8 @@ allow rild proc_net:file rw_file_perms;
 # mdc.
 # persist.sys.omc_support
 # ro.csc.
-get_prop(rild, exported_config_prop);
-
 # ril.NwNmId[0-9]
-get_prop(rild, telephony_config_prop)
+get_prop(rild, exported_config_prop);
 
 # vendor.cbd.
 set_prop(rild, vendor_cbd_prop)

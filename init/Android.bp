@@ -4,6 +4,9 @@ cc_library_static {
     srcs: [
         "init_gtaxl.cpp",
     ],
+    shared_libs: [
+        "libbase",
+    ],
     include_dirs: [
         "system/core/base/include",
         "system/core/init",

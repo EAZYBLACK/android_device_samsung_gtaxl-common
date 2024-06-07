@@ -47,4 +47,3 @@ allow gpsd self:capability2 block_suspend;
 
 get_prop(gpsd, vendor_radio_prop)
 get_prop(gpsd, exported_config_prop)
-get_prop(gpsd, bootanim_system_prop);
